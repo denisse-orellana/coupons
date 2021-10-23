@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.card-body {
+    padding: 10px;
+  }
+
+.bg-nav {
+    background-color: var(--success);
+    color: var(--white);
+    height: 62px;
+}
+
+.navbar-brand img {
+    height: 25px;
+    width: 86px;
+}
+
+.cuppons {
+    background-color: var(--white);
+    color: #212529;
+}
+
+h5 {
+    color: #212529;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h3 {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h4 {
+    color: #707070;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 10.5px;
+}
+
+.card-link {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.green {
+    color: var(--success);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.information {
+    background-color:var(--success);
+    font-size: 21px;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.form-control {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    color: #212529;
+    font-size: 16px;
+    font-white: 500; 
+}
+
+footer img {
+    height: 24px;
+    width: 82px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 22px;
+}
+
+/*Media Query*/
+
+/*XS*/
+@media (min-width: 0px) {
+    .responsive-text {
+        font-size: 18px; 
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*SM*/
+@media (min-width: 576px) {
+    .responsive-text {
+        font-size: 18px; 
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*MD*/
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 18px; 
+    }
+    .card-deck {
+        padding: 0;
+    }
+}
+
+/*LG*/
+@media (min-width: 992px) {
+    .responsive-text {
+        font-size: 21px;        
+    }
+}
+
+/*XL*/
+@media (min-width: 1200px) {
+    .responsive-text {
+        font-size: 21px;        
+    }
+}
